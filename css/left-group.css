@@ -1,0 +1,35 @@
+.left-group .header{
+    padding: 5px 30px 30px 0;
+    color: rgb(200, 255, 255);
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.left-group .block{
+    width: 50%;
+    height: 30px;
+    float: right;
+    margin: 10px 0 10px 0;
+    padding: 20px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: inline-table;
+}
+
+.left-group .block svg{
+    width: 28px;
+    vertical-align: bottom;
+}
+
+.left-group .block:hover{
+    background-color: rgb(19, 104, 165);
+}
+
+.left-group .selected{
+    background-color: rgb(3, 104, 176);
+}
+
