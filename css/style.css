@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: azure;
+    box-sizing: border-box;
 }  
 
 a {
@@ -34,9 +35,14 @@ button {
     margin: 0 0.5%;
 }
 .left-group, .right-group{
-    width: 20%;
     background-color: #2B4281;
     text-align: center;
+}
+.left-group{
+    width: 18%;
+}
+.right-group{
+    width: 22%;
 }
 .foot{
     position: relative;
