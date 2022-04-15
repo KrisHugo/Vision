@@ -1,5 +1,5 @@
 # weibo 
-## 模仿weibo, twitter类型的瀑布流社交网站网页设计，并不涉及数据交互
+**模仿weibo, twitter类型的瀑布流社交网站网页设计，并不涉及数据交互**
 ## 使用语言
 **HTML + CSS + JS（not now）**
 ## 目前实现的效果展示图
