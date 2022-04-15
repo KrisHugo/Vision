@@ -1,15 +1,16 @@
 .right-group .trend-list {
-    margin: 15px;
-    padding: 5px 0px;
-    /* border: 1px solid #989898; */
+    margin: 15px;    
+    padding-top: 5px;
+    padding-bottom: 20px;
     background-color: #384e89;
-    /* border-radius: 5px; */
+    border-radius: 20px;
 }
 
 .right-group .trend-list .trend-heading {
     font-size: 26px;
     text-align: left;
     padding: 10px;
+    text-indent: 10px;
 }
 
 .right-group .trend-list .block {
@@ -21,12 +22,11 @@
 }
 
 .right-group .trend-list .block:hover{
-    
     background-color: #425ca5;
 }
 
 .right-group .trend-list .block .trend-type {
-    color: #88c8e3;
+    color: #88c8e382;
 }
 
 .right-group .trend-list .block .trend-topic {
@@ -37,5 +37,5 @@
 }
 
 .right-group .trend-list .block .hot {
-    color: rgb(213, 25, 25);
+    color: rgba(213, 25, 25, 0.842);
 }
