@@ -1,5 +1,4 @@
-
-.mid-group{
+.mid-group {
     padding-top: 0;
     min-height: 1080px;
     flex: 1;
@@ -12,24 +11,27 @@
     color: azure;
 }
 
-.mid-group .mid-header{
+.mid-group .mid-header {
     width: 100%;
     /* border-left: 1px solid;
     border-right: 1px solid; */
     border-color: rgb(124, 116, 116, 0.5);
     background-color: #062270;
-    padding-top: 20px; 
+    padding-top: 20px;
     text-indent: 10px;
 }
-.mid-group .mid-header a{
+
+.mid-group .mid-header a {
     padding: 5px 15px;
 }
-.mid-group .mid-header a:hover{
-    background-color:#476DD5;
+
+.mid-group .mid-header a:hover {
+    background-color: #476DD5;
     border-radius: 15px;
     color: bisque;
 }
-.mid-group .input{
+
+.mid-group .input {
     background-color: #062270;
     width: 100%;
     min-height: 30px;
@@ -41,37 +43,40 @@
     border-bottom: 1px solid; */
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-color: rgb(124, 116, 116,0.5);
-    
-    
+    border-color: rgb(124, 116, 116, 0.5);
+
+
 }
 
-.mid-group .input textarea{
+.mid-group .input textarea {
     font-size: 18px;
-    background:transparent;
-    border-style:none;
+    background: transparent;
+    border-style: none;
     resize: none;
     height: 50px;
     width: 95%;
     padding: 10px 10px;
 }
 
-.mid-group .input textarea::-webkit-input-placeholder{
+.mid-group .input textarea::-webkit-input-placeholder {
     color: azure;
 }
-.mid-group .input .block-foot li{
+
+.mid-group .input .block-foot li {
     margin: 1% 0;
 }
-.mid-group .input .block-foot li a{
+
+.mid-group .input .block-foot li a {
     padding: 5px 15px;
 }
-.mid-group .input .block-foot li a.submit{
+
+.mid-group .input .block-foot li a.submit {
     padding: 5px 40px;
 }
 
 
 
-.mid-group .block{
+.mid-group .block {
     background-color: #062270;
     width: 100%;
     min-height: 30px;
@@ -79,47 +84,47 @@
     margin: 20px 0;
 
     /* border: 1px solid; */
-    border-color: rgb(124, 116, 116,0.5);
+    border-color: rgb(124, 116, 116, 0.5);
     border-radius: 20px;
 }
 
-.mid-group .block-main{
+.mid-group .block-main {
     display: flex;
 }
 
-.mid-group .block-left{
+.mid-group .block-left {
     width: 11%;
     height: 100%;
     padding: 5px 5px;
     margin-left: 5px;
 }
 
-.mid-group .block-body{
+.mid-group .block-body {
     flex: 1;
     height: 100%;
     padding: 5px 20px 8px 5px;
     text-align: left;
 }
 
-.mid-group .block-body-heading{
+.mid-group .block-body-heading {
     margin-bottom: 5px;
 }
 
-.mid-group .table{
+.mid-group .table {
     margin-top: 10px;
     border: 1px solid rgb(124, 116, 116);
     border-radius: 9px;
     background-color: #213e90;
 }
 
-.mid-group .table .table-heading{
+.mid-group .table .table-heading {
     padding: 10px 0;
     margin: 5px 5px;
     font-size: 22px;
     text-align: center;
 }
 
-.mid-group .selection{
+.mid-group .selection {
     /* padding: 10px 0; */
     margin: 5px 5px;
     border: 1px solid rgb(124, 116, 116);
@@ -129,17 +134,17 @@
     user-select: none;
 }
 
-.mid-group .selection:hover{
+.mid-group .selection:hover {
     background-color: #476DD5;
 }
 
 
-.mid-group .selection input[type=radio]{
+.mid-group .selection input[type=radio] {
     display: none;
 }
 
-.mid-group .selection label{
-    cursor:pointer;
+.mid-group .selection label {
+    cursor: pointer;
     display: block;
     height: 100%;
     padding: 10px 0;
@@ -149,9 +154,10 @@
 
 }
 
-.mid-group .selection input[type=radio] + label::after{
+.mid-group .selection input[type=radio]+label::after {
     cursor: pointer;
-    content: "\a0";  /*不换行空格*/
+    content: "\a0";
+    /*不换行空格*/
     display: inline-table;
     margin-left: 65%;
     vertical-align: auto;
@@ -163,64 +169,66 @@
     padding: 4px;
 }
 
-.mid-group .selection input[type="radio"]:checked + label::after {
-    background-color: #0098f0; /* 选中的背景颜色 */
+.mid-group .selection input[type="radio"]:checked+label::after {
+    background-color: #0098f0;
+    /* 选中的背景颜色 */
     padding: 4px;
     background-clip: content-box;
 }
-.mid-group .table .table-foot{
+
+.mid-group .table .table-foot {
     text-align: center;
     padding: 5px 15px;
 }
 
-.mid-group .table .table-foot input[type=submit]{
+.mid-group .table .table-foot input[type=submit] {
     cursor: pointer;
     border-radius: 8px;
     background-color: #3062ea;
-    padding:6px 20px;
+    padding: 6px 20px;
     font-size: 18px;
 }
 
-.mid-group .table .table-foot input[type=submit]:hover{
+.mid-group .table .table-foot input[type=submit]:hover {
     background-color: #2454d9;
 }
 
 
 
-.mid-group .block-left img.media-avatar{
+.mid-group .block-left img.media-avatar {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border-radius: 50%;
 }
 
-.mid-group .block-body .block-img{
-    text-align:center;
+.mid-group .block-body .block-img {
+    text-align: center;
     margin-top: 15px;
 }
 
-.mid-group .block-body .block-img img.media-img{
+.mid-group .block-body .block-img img.media-img {
     width: 100%;
     border-radius: 30px;
 }
 
-.mid-group .block-foot{
+.mid-group .block-foot {
     width: 100%;
     margin: 15px 0;
 }
 
-.mid-group .block-foot li{
+.mid-group .block-foot li {
     display: inline-block;
     margin: 1% 2%;
 }
 
-.mid-group .block-foot a.submit{
+.mid-group .block-foot a.submit {
     background-color: #370447;
     display: inline-block;
     margin: 1% 2%;
 }
 
-.mid-group .block-foot a.submit:hover{
+.mid-group .block-foot a.submit:hover {
     background-color: #A75EBF;
 }
 
@@ -228,15 +236,14 @@
     padding: 5px 40px;
     text-decoration: none;
     border-radius: 15px;
-} 
+}
 
-.mid-group .block-foot a svg{
+.mid-group .block-foot a svg {
     width: 14px;
     height: 14px;
 }
 
-.mid-group .block-foot a:hover{
-    background-color:#476DD5;
+.mid-group .block-foot a:hover {
+    background-color: #476DD5;
     color: bisque;
 }
-
