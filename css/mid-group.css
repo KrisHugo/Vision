@@ -72,7 +72,6 @@
 
 
 .mid-group .block{
-
     background-color: #062270;
     width: 100%;
     min-height: 30px;
@@ -140,12 +139,11 @@
 }
 
 .mid-group .selection label{
-    vertical-align: middle;
     cursor:pointer;
-    display: inline-table;
-    width: 100%;
+    display: block;
     height: 100%;
-    margin: 10px 50px;
+    padding: 10px 0;
+    text-align: center;
     /* display: flex; */
     letter-spacing: 10px;
 
@@ -155,8 +153,7 @@
     cursor: pointer;
     content: "\a0";  /*不换行空格*/
     display: inline-table;
-    margin-left: 70%;
-    /* float: right; */
+    margin-left: 65%;
     vertical-align: auto;
     width: 16px;
     height: 16px;

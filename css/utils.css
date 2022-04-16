@@ -1,4 +1,5 @@
 .search{
+    display: block;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -9,7 +10,7 @@
     border: 1px solid #124c69;
     border-radius: 20px;
     color: azure;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     background-color: rgb(51, 78, 197);
     padding: 0 15px 0 15px;
@@ -21,9 +22,9 @@
     border-style: none;
     height: 40px;
     width: 40px;
-    padding-top: 5px;
-    padding-left: 5px;
-    vertical-align: bottom;
+    /* padding-top: 5px; */
+    /* padding-left: 5px; */
+    vertical-align: middle;
 }
 
 .search svg {
@@ -33,7 +34,7 @@
 }
 
 .filter {
-    margin: 10px 3px;
+    margin: 10px 20px;
     border: 1px solid;
     border-radius: 10px;
 }

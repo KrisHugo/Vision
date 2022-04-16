@@ -26,6 +26,7 @@
 }
 
 .right-group .trend-list .block .trend-type {
+    display: block;
     color: #88c8e382;
 }
 
@@ -37,5 +38,10 @@
 }
 
 .right-group .trend-list .block .hot {
+    display: block;
+    color: rgba(213, 25, 25, 0.842);
+}
+.right-group .trend-list .block .hot span{
+    
     color: rgba(213, 25, 25, 0.842);
 }
