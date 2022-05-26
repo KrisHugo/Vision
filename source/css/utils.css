@@ -1,98 +1,100 @@
 .search{
     display: block;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .search input[type=text] {
     width: 68%;
-    height: 40px;
-    border: 1px solid #124c69;
-    border-radius: 20px;
+    height: 2.5rem;
+    border: 0.1rem solid #124c69;
+    border-radius: 1.3rem;
     color: azure;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: normal;
     background-color: rgb(51, 78, 197);
-    padding: 0 15px 0 15px;
+    padding: 0 0.95rem;
 }
 
 .search button{
-    background:transparent;
+    background: transparent;
     border-style: none;
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     vertical-align: middle;
 }
 
 .search svg {
-    width: 30px;
-    height: 30px;
+    width: 1.9rem;
+    height: 1.9rem;
 }
 
 .filter {
-    margin: 10px 20px;
-    border: 1px solid;
-    border-radius: 10px;
+    margin: 1.3rem 1.3rem;
+    border: 0.0625rem solid;
+    border-radius: 0.625rem;
 }
 
 .filter .heading {
-    padding: 10px 0;
-    margin-bottom: 15px;
-    border-bottom: 1px solid;
+    padding: 0.625rem 0;
+    margin-bottom: 0.9275rem;
+    border-bottom: 0.0625rem solid;
 }
 
 .filter .block label {
     width: 70%;
     display: inline-block;
-    padding: 5px 0;
-    border-radius: 10px;
+    padding: 0.3125rem 0;
+    border-radius: 0.625rem;
 
 }
 
 .filter .block input[type="text"] {
     width: 70%;
     display: inline-block;
-    padding: 5px 8px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    padding: 0.3125rem 0.5rem;
+    border-radius: 0.625rem;
+    margin-bottom: 0.625rem;
 }
 
 .filter .block input[type="submit"] {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     color: rgb(24, 7, 107);
     width: 50%;
     display: inline-block;
-    padding: 5px 8px;
-    margin-bottom: 12px;
-    border-radius: 10px;
+    padding: 0.3125rem 0.5rem;
+    margin-bottom: 0.75rem;
+    border-radius: 0.625rem;
     background-color: rgb(182, 182, 253);
-    border: 1px solid;
+    border: .0625rem solid;
 }
 
 .filter .block .selection label{
     margin: 0.5rem;
     cursor: pointer;
-    letter-spacing: 5px;
-    padding-right: 25px;
+    letter-spacing: 0.3125rem;
+    padding-right: 1.5625rem;
 }
 
 
 .filter .selection input[type="radio"]+label:before {
     content: '';
     background: #f4f4f4;
-    border: 1px solid #b4b4b4;
+    border: 0.0625rem solid #b4b4b4;
     display: inline-table;
-    width: 1.4em;
-    height: 1.4em;
+    width: 1.4rem;
+    height: 1.4rem;
     position: relative;
-    top: -0.2em;
-    margin-right: 3em;
+    top: -0.2rem;
+    margin-right: 3rem;
     vertical-align: top;
     cursor: pointer;
     text-align: left;
-    -webkit-transition: all 250ms ease;
-    transition: all 250ms ease;
+    
+    /* 渐变颜色变化效果 */
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
 }
 
 .filter .selection input[type="radio"]:checked+label:before {
@@ -145,4 +147,22 @@
 .trend-block:hover{
     background-color:#3857ac;
     color: bisque;
+}
+
+
+.transition-fast{
+    /* 渐变颜色变化效果 */
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+
+
+.transition-middle{
+    /* 渐变颜色变化效果 */
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+.shadow-soft{
+    box-shadow: 0.3125rem 0.3125rem 0.2rem #06266F;
 }
